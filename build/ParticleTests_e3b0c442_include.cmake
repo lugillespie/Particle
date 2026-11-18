@@ -1,0 +1,5 @@
+if(EXISTS "/Users/lucindagillespie/Documents/recurse/impossible-day-2-particles/Particle/build/ParticleTests_e3b0c442_tests.cmake")
+  include("/Users/lucindagillespie/Documents/recurse/impossible-day-2-particles/Particle/build/ParticleTests_e3b0c442_tests.cmake")
+else()
+  add_test(ParticleTests_NOT_BUILT ParticleTests_NOT_BUILT)
+endif()

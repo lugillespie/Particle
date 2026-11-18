@@ -1,0 +1,17 @@
+{
+  "tests": 1,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "Random",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "positiveFloat",
+          "file": "\/Users\/lucindagillespie\/Documents\/recurse\/impossible-day-2-particles\/Particle\/tests\/ParticleTests.cpp",
+          "line": 9
+        }
+      ]
+    }
+  ]
+}

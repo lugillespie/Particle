@@ -1,0 +1,20 @@
+include("/usr/local/share/cmake/Modules/GoogleTestAddTests.cmake")
+gtest_discover_tests_impl(
+  TEST_TARGET [==[ParticleTests]==]
+  TEST_EXECUTABLE [==[/Users/lucindagillespie/Documents/recurse/impossible-day-2-particles/Particle/build/ParticleTests]==]
+  TEST_EXECUTOR [==[]==]
+  TEST_WORKING_DIR [==[/Users/lucindagillespie/Documents/recurse/impossible-day-2-particles/Particle/build]==]
+  TEST_EXTRA_ARGS [==[]==]
+  TEST_PROPERTIES [==[]==]
+  TEST_PREFIX [==[]==]
+  TEST_SUFFIX [==[]==]
+  TEST_FILTER [==[]==]
+  NO_PRETTY_TYPES [==[FALSE]==]
+  NO_PRETTY_VALUES [==[FALSE]==]
+  TEST_LIST [==[ParticleTests_TESTS]==]
+  CTEST_FILE [==[/Users/lucindagillespie/Documents/recurse/impossible-day-2-particles/Particle/build/ParticleTests_e3b0c442_tests.cmake]==]
+  TEST_DISCOVERY_TIMEOUT [==[5]==]
+  TEST_DISCOVERY_EXTRA_ARGS [==[]==]
+  TEST_XML_OUTPUT_DIR [==[]==]
+  TEST_JSON_OUTPUT_DIR [==[/Users/lucindagillespie/Documents/recurse/impossible-day-2-particles/Particle/build]==]
+)

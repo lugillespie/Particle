@@ -1,0 +1,30 @@
+Start testing: Nov 17 15:14 EST
+----------------------------------------------------------
+1/1 Testing: Random.positiveFloat
+1/1 Test: Random.positiveFloat
+Command: "/Users/lucindagillespie/Documents/recurse/impossible-day-2-particles/Particle/build/ParticleTests" "--gtest_filter=Random.positiveFloat" "--gtest_also_run_disabled_tests"
+Directory: /Users/lucindagillespie/Documents/recurse/impossible-day-2-particles/Particle/build
+"Random.positiveFloat" start time: Nov 17 15:14 EST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Random.positiveFloat
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Random
+[ RUN      ] Random.positiveFloat
+[       OK ] Random.positiveFloat (0 ms)
+[----------] 1 test from Random (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Random.positiveFloat" end time: Nov 17 15:14 EST
+"Random.positiveFloat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 17 15:14 EST
